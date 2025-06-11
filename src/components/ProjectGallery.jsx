@@ -5,68 +5,74 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 
+// Importar todas las imágenes
+import foto1 from '../assets/images/foto1.png';
+import foto2 from '../assets/images/foto2.jpg';
+import foto3 from '../assets/images/foto3.jpg';
+import foto4 from '../assets/images/foto4.jpg';
+import foto5 from '../assets/images/foto5.jpg';
+import foto6 from '../assets/images/foto6.jpg';
+import foto7 from '../assets/images/foto7.jpg';
+import foto8 from '../assets/images/foto8.jpg';
+import foto9 from '../assets/images/foto9.jpg';
+import foto10 from '../assets/images/foto10.jpg';
+import foto11 from '../assets/images/foto11.jpg';
+import foto12 from '../assets/images/foto12.jpg';
+import foto13 from '../assets/images/foto13.jpg';
+
 const ProjectGallery = () => {
     const projects = [
         {
             id: 1,
-            image: "/src/assets/images/foto1.png",
+            image: foto1,
         },
         {
             id: 2,
-            image: "/src/assets/images/foto2.jpg",
+            image: foto2,
         },
         {
             id: 3,
-            image: "/src/assets/images/foto3.jpg",
+            image: foto3,
         },
         {
             id: 4,
-            image: "/src/assets/images/foto4.jpg",
+            image: foto4,
         },
         {
             id: 5,
-            image: "/src/assets/images/foto5.jpg",
-           
+            image: foto5,
         },
         {
             id: 6,
-            image: "/src/assets/images/foto6.jpg",
-            
+            image: foto6,
         },
         {
             id: 7,
-            image: "/src/assets/images/foto13.jpg",
-            
+            image: foto13,
         },
         {
             id: 8,
-            image: "/src/assets/images/foto7.jpg",
-            
+            image: foto7,
         },
         {
             id: 9,
-            image: "/src/assets/images/foto8.jpg",
-            
+            image: foto8,
         },
         {
             id: 10,
-            image: "/src/assets/images/foto9.jpg",
-            
+            image: foto9,
         },
         {
             id: 11,
-            image: "/src/assets/images/foto10.jpg",
-            
+            image: foto10,
         },
         {
             id: 12,
-            image: "/src/assets/images/foto11.jpg",
-            
+            image: foto11,
         },
         {
             id: 13,
-            image: "/src/assets/images/foto12.jpg",
-            
+            image: foto12,
         },
     ];
 
