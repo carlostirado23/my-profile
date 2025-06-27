@@ -87,7 +87,7 @@ const ProjectGallery = () => {
                         Explora algunas de mis fotografias
                     </p>
                 </div>
-
+{/* hola */}
                 <div className="relative">
                     <Swiper
                         modules={[Navigation, Pagination, Autoplay, EffectCoverflow]}
