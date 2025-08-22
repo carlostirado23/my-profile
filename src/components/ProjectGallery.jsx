@@ -23,7 +23,6 @@ import foto14 from "../assets/images/foto14.jpg";
 import foto15 from "../assets/images/foto15.jpg";
 import foto16 from "../assets/images/foto16.jpg";
 import foto17 from "../assets/images/foto17.jpg";
-import foto18 from "../assets/images/foto18.jpg";
 
 const ProjectGallery = () => {
     const projects = [
@@ -94,10 +93,6 @@ const ProjectGallery = () => {
         {
             id: 17,
             image: foto17,
-        },
-        {
-            id: 18,
-            image: foto18,
         },
     ];
 
