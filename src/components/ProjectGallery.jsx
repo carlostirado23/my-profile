@@ -19,6 +19,11 @@ import foto10 from '../assets/images/foto10.jpg';
 import foto11 from '../assets/images/foto11.jpg';
 import foto12 from '../assets/images/foto12.jpg';
 import foto13 from '../assets/images/foto13.jpg';
+import foto14 from "../assets/images/foto14.jpg";
+import foto15 from "../assets/images/foto15.jpg";
+import foto16 from "../assets/images/foto16.jpg";
+import foto17 from "../assets/images/foto17.jpg";
+import foto18 from "../assets/images/foto18.jpg";
 
 const ProjectGallery = () => {
     const projects = [
@@ -74,6 +79,26 @@ const ProjectGallery = () => {
             id: 13,
             image: foto12,
         },
+        {
+            id: 14,
+            image: foto14,
+        },
+        {
+            id: 15,
+            image: foto15,
+        },
+        {
+            id: 16,
+            image: foto16,
+        },
+        {
+            id: 17,
+            image: foto17,
+        },
+        {
+            id: 18,
+            image: foto18,
+        },
     ];
 
     return (
@@ -83,7 +108,7 @@ const ProjectGallery = () => {
                     <h2 className="mb-4 text-4xl font-bold text-gray-900 md:text-5xl animate-fade-in">
                         Galería
                     </h2>
-                    <p className="mx-auto max-w-2xl text-lg text-gray-600 animate-slide-in">
+                    <p className="max-w-2xl mx-auto text-lg text-gray-600 animate-slide-in">
                         Explora algunas de mis fotografias
                     </p>
                 </div>
@@ -122,7 +147,7 @@ const ProjectGallery = () => {
                         {projects.map((project) => (
                             <SwiperSlide key={project.id} className="swiper-slide-custom">
                                 <div className="w-80 h-96 project-card-3d group">
-                                    <div className="flex overflow-hidden flex-col w-full h-full bg-white rounded-xl shadow-lg transition-all duration-300 transform project-content hover:scale-105">
+                                    <div className="flex flex-col w-full h-full overflow-hidden transition-all duration-300 transform bg-white shadow-lg rounded-xl project-content hover:scale-105">
                                         <div className="relative w-full h-full">
                                             <img
                                                 src={project.image}
@@ -137,7 +162,7 @@ const ProjectGallery = () => {
                     </Swiper>
 
                     {/* Custom Navigation Buttons */}
-                    <div className="flex absolute left-4 top-1/2 z-10 justify-center items-center w-12 h-12 text-gray-600 bg-white rounded-full shadow-lg transition-all duration-200 -translate-y-1/2 cursor-pointer swiper-button-prev-custom hover:text-blue-600 hover:bg-blue-50">
+                    <div className="absolute z-10 flex items-center justify-center w-12 h-12 text-gray-600 transition-all duration-200 -translate-y-1/2 bg-white rounded-full shadow-lg cursor-pointer left-4 top-1/2 swiper-button-prev-custom hover:text-blue-600 hover:bg-blue-50">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M15 18L9 12L15 6"
@@ -148,7 +173,7 @@ const ProjectGallery = () => {
                             />
                         </svg>
                     </div>
-                    <div className="flex absolute right-4 top-1/2 z-10 justify-center items-center w-12 h-12 text-gray-600 bg-white rounded-full shadow-lg transition-all duration-200 -translate-y-1/2 cursor-pointer swiper-button-next-custom hover:text-blue-600 hover:bg-blue-50">
+                    <div className="absolute z-10 flex items-center justify-center w-12 h-12 text-gray-600 transition-all duration-200 -translate-y-1/2 bg-white rounded-full shadow-lg cursor-pointer right-4 top-1/2 swiper-button-next-custom hover:text-blue-600 hover:bg-blue-50">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M9 18L15 12L9 6"
